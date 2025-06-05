@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <title>Cravo & Canela - Cadastro</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<footer class="footer">
+  <div class="footer-left">
+    <a href="index.html" class="logo">
+      Cravo<span>&Canela</span>
+    </a>
+  </div>
+  <div class="footer-center">
+    A Cravo<span>&Canela</span>&nbsp;é uma confeitaria que transforma qualidade em momentos doces para compartilhar.
+  </div>
+  <div class="footer-right">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="footer-icon">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="footer-icon">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/" target="_blank" aria-label="WhatsApp" class="footer-icon">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+</footer>
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+
+<body>
+  <div class="header">
+    <h2 class="logo">
+      <a href="index.html">
+        Cravo<span>&Canela</span>
+      </a>
+    </h2>
+
+    <div class="nav">
+      <ul>
+<li><a href="products.html">products</a></li>
+        <li><a href="combos.html">combos</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="about.html">about</a></li>
+      </ul>
+    </div>
+
+    <a href="login.html" class="btn">Sign in</a>
+  </div>
+
+  <div class="login-container">
+    <form class="login-form">
+      <h3>Cadastro</h3>
+      
+      <input type="text" placeholder="Nome completo" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Senha" required />
+      <input type="password" placeholder="Confirmar senha" required />
+
+      <label for="categoria">Categoria:</label>
+      <select id="categoria" required>
+        <option value="visitante">Visitante</option>
+        <option value="membro">Membro</option>
+      </select>
+
+      <label for="tipo">Tipo:</label>
+      <select id="tipo" required>
+        <option value="nacional">Nacional</option>
+        <option value="internacional">Internacional</option>
+      </select>
+
+      <label for="foto">Upload de foto:</label>
+      <input type="file" id="foto" accept="image/*" />
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+
+</html>
+
